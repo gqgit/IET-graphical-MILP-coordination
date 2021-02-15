@@ -1,0 +1,21 @@
+<routes>
+		<!--vType id="determined" speedFactor="1.0" tau="0.1" minGap="1" sigma="0"/-->
+        <vType id="determined" guiShape="passenger" accel="2" decel="4" carFollowModel="Krauss" sigma="0" length="4" width="1.6" minGap="2" tau="0.1" maxSpeed="10" impatience="off" speedFactor="1.0"/>
+        <!--vType id="determined" guiShape="passenger" accel="2" decel="4.5" sigma="0" length="4" width="1.6" minGap="0" maxSpeed="20" impatience="off" speedFactor="1.0"/-->
+		
+        <route id="es" edges="2i 3o"/>
+		<route id="ew" edges="2i 1o"/>
+		<route id="en" edges="2i 4o"/>
+
+		<route id="ne" edges="4i 2o"/>
+		<route id="ns" edges="4i 3o"/>
+		<route id="nw" edges="4i 1o"/>
+
+		<route id="wn" edges="1i 4o"/>
+		<route id="we" edges="1i 2o"/>
+		<route id="ws" edges="1i 3o"/>
+
+		<route id="sw" edges="3i 1o"/>
+		<route id="sn" edges="3i 4o"/>
+		<route id="se" edges="3i 2o"/>
+</routes>
